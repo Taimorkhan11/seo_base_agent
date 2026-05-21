@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /mnt/c/assesment 2>/dev/null || echo \"empty\")",
+      "Read(//mnt/c/**)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\assesment\\\\app\\\\models\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\assesment\\\\app\\\\agents\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\assesment\\\\app\\\\api\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\assesment\\\\app\\\\services\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\assesment\\\\app\\\\utils\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\assesment\\\\tests\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\assesment\\\\migrations\")",
+      "PowerShell(python --version)",
+      "PowerShell(pip --version 2>&1)",
+      "PowerShell(Copy-Item \"c:\\\\assesment\\\\.env.example\" \"c:\\\\assesment\\\\.env\")"
+    ]
+  }
+}
